@@ -1,0 +1,52 @@
+.contenedor-titulos {
+    margin-bottom: 20px;
+}
+.contenedor-titulos .titulo-1 {
+    font-size: 40px;
+    text-align: center;
+    display:block;
+    margin:10px 0px 20px 0px;
+
+}
+.contenedor-titulos .subtitulo-1 {
+    display:block;
+}
+.contenedor-titulos .titulo-2 {
+    display:block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-style: normal
+}
+.formulario-datos .input-nombre {
+    text-align: center;
+    margin-left: 60px;
+    text-decoration: underline;
+
+}
+.formulario-datos .input-apellido {
+    text-align: center;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+.fecha .ingreso-fecha {
+    margin-left: 100px;
+}
+
+.botones .boton-limpiar{ 
+    margin:30px 0px 20px 60px;
+    width: 130px;
+    height: 30px;
+
+}
+.botones .boton-mostrar{ 
+    margin:30px 0px 20px 60px;
+    width: 130px;
+    height: 30px;
+    
+}
+
+.footer-texto {
+    margin-left: 20px;
+}
