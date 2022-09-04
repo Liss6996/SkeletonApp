@@ -1,9 +1,5 @@
 
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header titulo="Login"></app-header>
 
 <ion-content>
 
@@ -14,15 +10,33 @@
 </div>  
 
 <form class="formulario-login" >
+  
   <ion-item>
     <ion-label position="stacked">Usuario</ion-label>
     <ion-input></ion-input>
   </ion-item>
+
   <ion-item>
+    <ion-label position="stacked">Usuario</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Usuario</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  
+  <ion-item *ngIf="conductor">
     <ion-label position="stacked">Contraseña</ion-label>
     <ion-input type="password"> </ion-input>
   </ion-item>
+
+  <!-- BOTÓN -->
+  <!--
   <ion-button expand="full">Ingresar</ion-button>
+  -->
+  <app-boton></app-boton>
+
 </form>
 
 <div class="contenedor-link">
@@ -30,3 +44,5 @@
 </div>
 
 </ion-content>
+
+<app-footer></app-footer>
